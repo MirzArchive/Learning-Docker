@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/MirzaHilmi/Learn-Docker/master/docs/image-banner.webp" alt="An Image of Docker Logo with a text that says Docker">
+
 # Learning Docker
 
 This repository contains my notes, examples, and exercises related to learning Docker. The goal of this repository is to serve as a reference guide for myself and others who are interested in learning about Docker.
