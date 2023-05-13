@@ -1,0 +1,10 @@
+{
+  "name": "The Ultimare Rizz Course",
+  "price": 149,
+  "is_published": true,
+  "tags": ["software", "devops"],
+  "autor": {
+    "first_name": "Mirza",
+    "last_name": "Hilmi"
+  }
+}
