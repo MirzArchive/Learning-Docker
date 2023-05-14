@@ -6,12 +6,20 @@ services:
     build: ./frontend
     ports:
       - "3000:3000"
+    volumes:
+      - ./frontend:/app
+
   server:
     build: ./backend
     ports:
       - "3001:3001"
     environment:
       DB_URL: mongodb://database/vidly  
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - database
+
   database:
     image: mongo:4.0-xenial
     ports:
